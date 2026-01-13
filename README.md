@@ -1,44 +1,66 @@
 🥔 Chips Market Sales Analysis
-This project is part of the Quantium Virtual Internship on Forage. It simulates a real-world business scenario using retail sales data focused on the chips category. The internship involved analyzing customer behavior, product performance, and marketing effectiveness using Python, Excel, and PowerPoint.
+
+This project was completed as part of the Quantium Virtual Internship Program on Forage. It simulates a real-world retail analytics scenario using transaction-level sales data from the chips category. The project focuses on understanding customer behavior, evaluating product performance, and measuring the effectiveness of in-store trials.
 
 📊 Project Overview
-The goal was to turn raw retail transaction data into actionable insights for both business and technical stakeholders. The analysis supports smarter decisions in product performance tracking, customer segmentation, and campaign evaluation.
 
-🛠 Tools & Technologies Used
-Python (Pandas, Matplotlib, Seaborn, Scipy) – for data wrangling, statistical tests, and visualizations
-Excel – for initial exploration and file preparation
-PowerPoint – to present final insights and strategic recommendations
-📌 Project Highlights
+The objective of this analysis was to transform raw retail transaction data into actionable business insights. The project supports decision-making related to customer segmentation, product performance, and marketing trial evaluation, with findings communicated to both technical and non-technical stakeholders.
+
+🛠 Tools & Technologies
+
+Python (Pandas, Matplotlib, Seaborn, SciPy) – data cleaning, analysis, statistical testing, and visualization
+
+Excel – initial data exploration and preparation
+
+PowerPoint – executive-style presentation of insights and recommendations
+
+📌 Project Structure & Key Tasks
 🔹 Task 1: Customer Segmentation & Product Insights
-Analyzed brand preferences and pack size trends
-Compared average unit prices, quantities, and sales volume across segments
-Insight: Mainstream Young Singles/Couples bought the most chips; Celica had highest retention %
+
+Analyzed customer segments based on life stage and purchasing behavior
+
+Evaluated brand preferences and pack size trends
+
+Compared average unit price, quantity purchased, and total sales across segments
+
+Key Insight:
+
+Mainstream Young Singles/Couples purchased the highest volume of chips
+
+Celica showed the highest customer retention percentage
+
 🔹 Task 2: Trial Store Performance Evaluation
-Identified control stores using correlation and magnitude distance techniques
-Measured trial impact using sales lift and t-statistics
-Insight: Trial stores showed measurable performance differences, with 95% confidence intervals used to validate results
+
+Selected suitable control stores using correlation and magnitude distance methods
+
+Compared trial and control store performance using normalized sales metrics
+
+Evaluated trial impact using sales lift, t-tests, and 95% confidence intervals
+
+Key Insight:
+
+Trial stores showed statistically measurable performance differences compared to control stores
+
 🔹 Task 3: Executive Presentation
-Created an executive-style slide deck to summarize findings from Tasks 1 and 2
-Provided visual summaries and data-backed recommendations
+
+Created an executive-style slide deck summarizing findings from Tasks 1 and 2
+
+Presented insights using clear visualizations and data-backed recommendations
+
+Focused on business impact and actionable outcomes
+
 🚀 What I Achieved
-Applied statistical techniques (correlation, t-tests, normalization) to real-world retail data
-Developed a clear presentation and report tailored to business stakeholders
-Learned to evaluate test vs. control store performance using Python
+
+Applied statistical techniques such as correlation analysis, normalization, and t-tests to retail transaction data
+
+Conducted end-to-end customer and store performance analysis using Python
+
+Developed clear, stakeholder-focused insights and recommendations
+
+Strengthened skills in experimental analysis (trial vs. control evaluation)
+
 ⚙️ Challenges & Solutions
 Challenge	Solution
-Managing long workflows across 3 tasks	Broke the work into reproducible Python scripts and modules
-Handling missing days in transaction data	Generated full date sequences and merged to find gaps
-Plotting multi-line comparisons (trial, control, confidence bands)	Standardized visual format and fixed slice logic
-✅ Recommendations
-Focus promotions on segments with high unit purchases (e.g., Mainstream Young Singles/Couples)
-Monitor trial stores against matched control stores using normalized sales and statistical thresholds
-Continue testing in smaller, low-risk markets to refine marketing effectiveness
-📥 Dataset
-Source: Quantium Retail Analytics Internship (via Forage)
-Contents: Transaction data, customer segmentation, store information
-👤 Contributor
-Tolulope Olarewaju
-
-🙏 Acknowledgements
-Thanks to Quantium and Forage for providing a realistic, high-quality internship simulation
-Appreciation to the open-source Python community for robust data science tools
+Managing a long workflow across multiple tasks	Broke analysis into reproducible Python scripts and modular steps
+Missing dates in transaction data	Generated complete date ranges and merged datasets to identify gaps
+Visualizing multi-line comparisons (trial vs. control vs. confidence bands)	Standardized plotting logic and visual formatting
